@@ -4,8 +4,18 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "jsdom": "^24.0.0",
+    "my-ui-library": "^0.0.0"
+  },
+  "scripts": {
+    "build": "lerna run build"
+  },
   "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "jsdom-global": "^3.0.2",
     "lerna": "^8.1.2"
   }
 }
